@@ -6,7 +6,7 @@ function pdo(){
 
     $dsn="mysql:host=localhost;charset=utf8;dbname=resume";
     $pdo=new PDO($dsn,'root','',[]);
-    $sql="SELECT * FROM `` ";
+    
 }
 ?>
 
