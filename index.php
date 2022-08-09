@@ -17,44 +17,45 @@
 
 <body>
     <div class="container">
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary text-white shadow-lg p-3 mb-5 bg-body rounded mt-4 ">
-        <a class="navbar-brand" href="#"><i class="fa-solid fa-mug-hot"></i></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="?do=main">MAIN PAGE<span class="sr-only">(current)</span></a>
-                </li>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <li class="nav-item">
-                    <a class="nav-link" href="?do=aboutme">ABOUT ME</a>
-                </li>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <li class="nav-item">
-                    <a class="nav-link" href="?do=portfolio">PORTFOLIO</a>
-                </li>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <li class="nav-item">
-                    <a class="nav-link" href="?do=contact">CONTACT ME</a>
-                </li>
-                
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-            <div class="organ-labels_btm-border" style="width:auto"></div>
-        </div>
-    </nav>
-</div>
+        <nav
+            class="navbar navbar-expand-lg navbar-light bg-primary text-white shadow-lg p-3 mb-5 bg-body rounded mt-4 ">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-mug-hot"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-<div class="container">
-    <?php
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active font-weight-bold">
+                        <a class="nav-link" href="?do=main">MAIN PAGE</a>
+                    </li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li class="nav-item active font-weight-bold">
+                        <a class="nav-link" href="?do=aboutme">ABOUT ME</a>
+                    </li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li class="nav-item active font-weight-bold">
+                        <a class="nav-link" href="?do=portfolio">PORTFOLIO</a>
+                    </li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li class="nav-item active font-weight-bold">
+                        <a class="nav-link" href="?do=contact">CONTACT ME</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <div class="organ-labels_btm-border" style="width:auto"></div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <?php
         $do=$_GET['do']??'main';
         $file=$do.".php";
         if(file_exists($file)){
@@ -64,7 +65,7 @@
         }
     ?>
 
-</div>
+    </div>
 
 
 
@@ -78,10 +79,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
         integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
     </script>
-    
-    
 
- 
+
+
+
 </body>
 
 </html>

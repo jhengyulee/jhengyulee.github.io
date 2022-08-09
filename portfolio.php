@@ -21,15 +21,15 @@
     <div class="container">
         <ul class="nav nav-tabs bg-light" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#home" type="button"
-                    role="tab" aria-controls="home" aria-selected="true">圖文設計</button>
+                <button class="nav-link active"  data-toggle="tab" data-target="#home" type="button"
+                    role="tab" aria-controls="home" aria-selected="true">Graphic Design</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#profile" type="button"
+                <button class="nav-link"  data-toggle="tab" data-target="#profile" type="button"
                     role="tab" aria-controls="profile" aria-selected="false">Back-End</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#contact" type="button"
+                <button class="nav-link"  data-toggle="tab" data-target="#contact" type="button"
                     role="tab" aria-controls="contact" aria-selected="false">Front-End</button>
             </li>
            
@@ -72,7 +72,7 @@
                                     </svg>
                                     <!-- icon end -->
                                     <br>
-                                    以紅色為基礎色，結合拓印兔子輪廓，期望新的一年能嶄新開始
+                                    以紅為基色，結合拓印白色兔子輪廓，期望新的一年能犀利開始
                                 </p>
                                 <a href="#" class="btn btn-primary">點我看看</a>
                             </div>
