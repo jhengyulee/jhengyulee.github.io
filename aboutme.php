@@ -6,20 +6,23 @@
 
                 <div class="section-title">
                     <h2>About Me</h2>
-                    <h4>
+                    <h3>
                         網頁設計領域持續努力學習中！
-                    </h4>
+                    </h3>
                 </div>
                 <!-- 1 -->
                 <div class="row justify-content-around col-12">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <img src="./img/learning.jpg" class="img-fluid rounded-lg">
                     </div>  
                     <div class="col-lg-4">
-                    <h5>2022年<br><br>  
-                    進入泰山職訓網頁設計專班，歷經半年學習，逐漸著迷於這個由程式碼、圖文設計及邏輯組成的世界。
-                    </h5>
+                    <h4>2022年<br>
+                    泰山職訓網頁設計專班
+                    </h4>
+                    <br><br>  
+                    歷經半年的腦力風暴，逐漸著迷於這個由程式碼、圖文設計及邏輯組成的世界。
+                    
                     </div>
                     <div class="col-lg-1"></div>
                 </div>
@@ -32,15 +35,18 @@
                     <div class="col-lg-1"></div>
                     <div class="col-lg-4">
                         
-                        <h5>
-                        2017年  -  2022年 <br><br>
-                        新北市立福和國中任教，期間擔任營隊工作人員看到學生令人驚豔的網頁作品
+                        <h4>
+                        2018年 - 2022年<br>
+                        新北市立福和國中
+                        </h4>
+                        <br><br>
+                        任教期間擔任營隊工作人員看到學生令人驚豔的網頁作品
                         ，激起自身對網頁設計的好奇及探究心。
                 
-                        </h5>
+                        
                     </div>
                     <div class="col-lg-4">
-                        <img src="./img/me.jpeg" class="img-fluid rounded-lg" alt="">
+                        <img src="./img/fuhe.jpg" class="img-fluid rounded-lg" alt="">
                     </div>
                     <div class="col-lg-1"></div>
                 </div>
@@ -52,17 +58,21 @@
                 <div class="row justify-content-around col-12">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-4">
-                        <img src="./img/me.jpeg" class="img-fluid rounded-lg" alt="">
+                        <img src="./img/taipei.JPG" class="img-fluid rounded-lg" alt="">
                     </div>
                     <div class="col-lg-1"></div>
                     <div class="col-lg-4">
-                    <h5>
-                        2015年  -  2016年 <br><br>
-                        台北市就業服務處就職，擔任就業服務輔導員，負責就業輔導計畫撰寫
-                        、舉辦相關講座，台北市中高齡、銀髮服務計畫起草人之一。
+                    <h4>
+                        2016年 - 2017年<br>
+                        台北市就業服務處 
+                    </h4> 
+                        <br><br>
+
+                        擔任就業服務輔導員時期，專責就業輔導活動企畫撰寫與執行
+                        ，台北市銀髮服務計畫起草人之一。
                         
                 
-                        </h5>
+                       
                     </div>
                     <div class="col-lg-1"></div>
                 </div>
@@ -88,6 +98,49 @@
                         <img src="./img/me.jpeg" class="img-fluid rounded-lg" alt="">
                     </div>
                     <div class="col-lg-1"></div>
+                </div>
+                <br><br><br><br><br><br><br><br>
+                <!-- 5 -->
+                <div class="section-title">
+                    
+                    <h2>Skills</h2>
+                    
+                </div>
+                <div class="row justify-content-around col-12">
+                    
+                    <div class="col-lg-3">
+                        <h3>Graphic Design</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem suscipit
+                            iste harum modi accusamus praesentium dolore ipsam magni laboriosam laudantium in dolores
+                            expedita, aperiam  ducimus culpa provident nisi veritatis!
+                            Fuga consectetur magnam totam quas quos! Voluptatem iure repellat eligendi molestiae!
+                            Officia aliquam enim accusamus odit!
+                        </p>
+                    </div>
+                    <div class="col-lg-1"></div>
+                  
+                    <div class="col-lg-3">
+                    <h3>Front-End</h3>
+                    <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem suscipit
+                            iste harum modi accusamus praesentium dolore ipsam magni laboriosam laudantium in dolores
+                            expedita, aperiam  ducimus culpa provident nisi veritatis!
+                            Fuga consectetur magnam totam quas quos! Voluptatem iure repellat eligendi molestiae!
+                            Officia aliquam enim accusamus odit!
+                        </p>
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-3">
+                    <h3>Back-End</h3>
+                    <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem suscipit
+                            iste harum modi accusamus praesentium dolore ipsam magni laboriosam laudantium in dolores
+                            expedita, aperiam  ducimus culpa provident nisi veritatis!
+                            Fuga consectetur magnam totam quas quos! Voluptatem iure repellat eligendi molestiae!
+                            Officia aliquam enim accusamus odit!
+                        </p>
+                    </div>
                 </div>
 
             </div>
