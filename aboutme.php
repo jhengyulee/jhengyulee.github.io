@@ -5,7 +5,7 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>About Me</h2>
+                    <h2>Experiences</h2>
                     <h3>
                         網頁設計領域持續努力學習中！
                     </h3>
@@ -108,38 +108,25 @@
                 </div>
                 <div class="row justify-content-around col-12">
                     
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 shadow-lg rounded">
                         <h3>Graphic Design</h3>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem suscipit
-                            iste harum modi accusamus praesentium dolore ipsam magni laboriosam laudantium in dolores
-                            expedita, aperiam  ducimus culpa provident nisi veritatis!
-                            Fuga consectetur magnam totam quas quos! Voluptatem iure repellat eligendi molestiae!
-                            Officia aliquam enim accusamus odit!
-                        </p>
+                        <img src="./skills/ps.png" style="width:100px;height:100px">
+                        <img src="./skills/Illu.png" style="width:100px;height:100px">
                     </div>
                     <div class="col-lg-1"></div>
                   
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 shadow-lg rounded">
                     <h3>Front-End</h3>
-                    <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem suscipit
-                            iste harum modi accusamus praesentium dolore ipsam magni laboriosam laudantium in dolores
-                            expedita, aperiam  ducimus culpa provident nisi veritatis!
-                            Fuga consectetur magnam totam quas quos! Voluptatem iure repellat eligendi molestiae!
-                            Officia aliquam enim accusamus odit!
-                        </p>
+                        <img src="./skills/js.png" style="width:100px;height:100px">
+                        <img src="./skills/html.png" style="width:100px;height:100px">
+                        <img src="./skills/css.png" style="width:100px;height:100px">
+                        <img src="./skills/bs.png" style="width:100px;height:100px">
                     </div>
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 shadow-lg rounded">
                     <h3>Back-End</h3>
-                    <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem suscipit
-                            iste harum modi accusamus praesentium dolore ipsam magni laboriosam laudantium in dolores
-                            expedita, aperiam  ducimus culpa provident nisi veritatis!
-                            Fuga consectetur magnam totam quas quos! Voluptatem iure repellat eligendi molestiae!
-                            Officia aliquam enim accusamus odit!
-                        </p>
+                        <img src="./skills/php.png" style="width:100px;height:100px">
+                        <img src="./skills/sql.png" style="width:100px;height:100px">
                     </div>
                 </div>
 
