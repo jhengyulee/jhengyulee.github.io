@@ -19,7 +19,9 @@ a {
   text-decoration: none;
 }
 
-
+#skill img{
+  margin: 5px;
+}
 
 svg{
   width:50px;

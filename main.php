@@ -10,8 +10,14 @@
       </div>
   </section> -->
 
-  <div class="container" style="background:url('./img/background.jpg');border:2px solid black;height:500px;opacity:70%">
-  <h1>Welcome! I am James</h1>
-      <p>Desired to be A Web Developer</p>
-
+  <div class="container" style="border:2px solid lightgrey;background-color:lightblue">
+    <div class="row">
+        <div width:50%>
+        <div><h1>Warm Welcome! I am James</h1></div>
+        <div><h2>Desired to be A Web Developer</h2></div>
+        </div>
+        <div>
+            <img src="https://fakeimg.pl/350x350/?text=Hello" width:50% style="border-radius:50%;margin:5px auto">
+        </div>
+    </div>
   </div>
