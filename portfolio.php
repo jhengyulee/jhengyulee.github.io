@@ -13,33 +13,33 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/digi.css">
-    
+
 
 </head>
 
 <body>
     <div class="container">
-        <ul class="nav nav-tabs bg-light" id="myTab" role="tablist">
+        <!-- <ul class="nav nav-tabs bg-light" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active"  data-toggle="tab" data-target="#home" type="button"
-                    role="tab" aria-controls="home" aria-selected="true">Graphic Design</button>
+                <button class="nav-link active" data-toggle="tab" data-target="#home" type="button" role="tab"
+                    aria-controls="home" aria-selected="true">Graphic Design</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link"  data-toggle="tab" data-target="#profile" type="button"
-                    role="tab" aria-controls="profile" aria-selected="false">Back-End</button>
+                <button class="nav-link" data-toggle="tab" data-target="#profile" type="button" role="tab"
+                    aria-controls="profile" aria-selected="false">Back-End</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link"  data-toggle="tab" data-target="#contact" type="button"
-                    role="tab" aria-controls="contact" aria-selected="false">Front-End</button>
+                <button class="nav-link" data-toggle="tab" data-target="#contact" type="button" role="tab"
+                    aria-controls="contact" aria-selected="false">Front-End</button>
             </li>
-           
-        </ul>
+
+        </ul> -->
 
 
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                 <div class="container mt-4">
-                   
+
                     <div class="row justify-content-between">
                         <div class="card" style="width:18rem;">
                             <img src="./img/bird.jpg" class="card-img-top" alt="...">
@@ -115,24 +115,45 @@
                                     </svg>
                                     <!-- icon end -->
                                     <br>
-                                    初來乍到的第一份作品。用幾何圖形拼湊，呈現職業訓練簡單有力、實事求是的風格</p>
+                                    初來乍到的第一份作品。用幾何圖形拼湊，呈現職業訓練簡單有力、實事求是的風格
+                                </p>
                                 <a href="#" class="btn btn-primary">點我看看</a>
                             </div>
                         </div>
                         <div class="card" style="width:18rem;">
-                            <img src="./img/clock.jpg" class="card-img-top" alt="...">
+                            <img src="./img/clock.jpg" class="card-img-top" style="height:180px">
                             <div class="card-body">
-                                <h5 class="card-title">To be continued...</h5>
-                                <p class="card-text">敬請期待</p>
-                                <!-- <a href="#" class="btn btn-primary">點我看看</a> -->
+                            <h5 class="card-title font-weight-bold">電子時鐘</h5>
+                                <p class="card-text">
+                                    <!-- icon -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" fill="currentColor"
+                                        class="bi bi-sun" viewBox="0 0 24 24">
+                                        <path
+                                            d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                                    </svg>
+                                    <!-- icon end -->
+                                    <br>
+                                    利用javascript語法寫成的小小作品，當個螢幕保護程式騙騙人還不錯
+                                </p>
+                                <a href="#" class="btn btn-primary">點我看看</a>
                             </div>
                         </div>
                         <div class="card" style="width:18rem;">
-                            <img src="./img/imagine.jpg" class="card-img-top" style="height:200px">
+                            <img src="./img/calendarphp.jpg" class="card-img-top" style="height:180px">
                             <div class="card-body">
-                                <h5 class="card-title">To be continued...</h5>
-                                <p class="card-text">敬請期待</p>
-                                <!-- <a href="#" class="btn btn-primary">點我看看</a> -->
+                            <h5 class="card-title font-weight-bold">線上萬年曆</h5>
+                                <p class="card-text">
+                                    <!-- icon -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" fill="currentColor"
+                                        class="bi bi-sun" viewBox="0 0 24 24">
+                                        <path
+                                            d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                                    </svg>
+                                    <!-- icon end -->
+                                    <br>
+                                    用PHP後端語言牛刀小試的作品，絕對是新手學習PHP最佳入門，強力推薦<br>
+                                </p>
+                                <a href="#" class="btn btn-primary">點我看看</a>
                             </div>
 
                         </div>

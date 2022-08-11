@@ -95,7 +95,7 @@
                     <div class="col-lg-1"></div>
                   
                     <div class="col-lg-4">
-                        <img src="./img/me.jpeg" class="img-fluid rounded-lg" alt="">
+                        <img src="./img/sea.jpg.jpg" class="img-fluid rounded-lg" alt="">
                     </div>
                     <div class="col-lg-1"></div>
                 </div>
