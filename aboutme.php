@@ -1,4 +1,12 @@
+    <style>
+        #skill div h3{
+            text-align: center;
+        }
 
+        #skill div img{
+            margin: 5px;
+        }
+    </style>
     <div class="container">
 
         <section id="about" class="about">
@@ -101,7 +109,7 @@
                 </div>
                 <br><br><br><br><br><br><br><br>
                 <!-- 5 -->
-                <div class="section-title">
+                <div class="section-title" style="margin-bottom:20px ;">
                     
                     <h2>Skills</h2>
                     
@@ -116,7 +124,7 @@
                     <div class="col-lg-1"></div>
                   
                     <div class="col-lg-3 shadow rounded">
-                    <h3>Front-End</h3>
+                        <h3>Front-End</h3>
                         <img src="./skills/js.png" style="width:100px;height:100px">
                         <img src="./skills/html.png" style="width:100px;height:100px">
                         <img src="./skills/css.png" style="width:100px;height:100px">
@@ -124,7 +132,7 @@
                     </div>
                     <div class="col-lg-1"></div>
                     <div class="col-lg-3 shadow rounded">
-                    <h3>Back-End</h3>
+                        <h3>Back-End</h3>
                         <img src="./skills/php.png" style="width:100px;height:100px">
                         <img src="./skills/sql.png" style="width:100px;height:100px">
                     </div>

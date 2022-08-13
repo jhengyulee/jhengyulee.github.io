@@ -151,7 +151,7 @@
                                     </svg>
                                     <!-- icon end -->
                                     <br>
-                                    用PHP後端語言牛刀小試的作品，絕對是新手學習PHP最佳入門，強力推薦<br>
+                                    用PHP後端語言牛刀小試的作品，強力推薦作為新手學習PHP最佳入門<br>
                                 </p>
                                 <a href="#" class="btn btn-primary">點我看看</a>
                             </div>
