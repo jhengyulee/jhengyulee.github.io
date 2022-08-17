@@ -22,7 +22,7 @@
                 <div class="row justify-content-around col-12">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-4">
-                        <img src="./img/learning.jpg" class="img-fluid rounded-lg">
+                        <img src="./img/learning.jpg" class="img-fluid rounded-lg shadow">
                     </div>  
                     <div class="col-lg-4">
                     <h4>2022年<br>
@@ -54,7 +54,7 @@
                         
                     </div>
                     <div class="col-lg-4">
-                        <img src="./img/fuhe.jpg" class="img-fluid rounded-lg" alt="">
+                        <img src="./img/fuhe.jpg" class="img-fluid rounded-lg shadow">
                     </div>
                     <div class="col-lg-1"></div>
                 </div>
@@ -66,7 +66,7 @@
                 <div class="row justify-content-around col-12">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-4">
-                        <img src="./img/taipei.JPG" class="img-fluid rounded-lg" alt="">
+                        <img src="./img/taipei.JPG" class="img-fluid rounded-lg shadow">
                     </div>
                     <div class="col-lg-1"></div>
                     <div class="col-lg-4">
@@ -103,7 +103,7 @@
                     <div class="col-lg-1"></div>
                   
                     <div class="col-lg-4">
-                        <img src="./img/sea.jpg.jpg" class="img-fluid rounded-lg" alt="">
+                        <img src="./img/sea.jpg.jpg" class="img-fluid rounded-lg shadow">
                     </div>
                     <div class="col-lg-1"></div>
                 </div>
@@ -116,14 +116,14 @@
                 </div>
                 <div class="row justify-content-around col-12" id="skill">
                     
-                    <div class="col-lg-3 shadow rounded">
+                    <div class="col-lg-3 shadow-lg rounded">
                         <h3>Graphic Design</h3>
                         <img src="./skills/ps.png" style="width:100px;height:100px">
                         <img src="./skills/Illu.png" style="width:100px;height:100px">
                     </div>
                     <div class="col-lg-1"></div>
                   
-                    <div class="col-lg-3 shadow rounded">
+                    <div class="col-lg-3 shadow-lg rounded">
                         <h3>Front-End</h3>
                         <img src="./skills/js.png" style="width:100px;height:100px">
                         <img src="./skills/html.png" style="width:100px;height:100px">
@@ -131,7 +131,7 @@
                         <img src="./skills/bs.png" style="width:100px;height:100px">
                     </div>
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-3 shadow rounded">
+                    <div class="col-lg-3 shadow-lg rounded">
                         <h3>Back-End</h3>
                         <img src="./skills/php.png" style="width:100px;height:100px">
                         <img src="./skills/sql.png" style="width:100px;height:100px">

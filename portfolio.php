@@ -41,7 +41,7 @@
                 <div class="container mt-4">
 
                     <div class="row justify-content-between">
-                        <div class="card" style="width:18rem;">
+                        <div class="card shadow" style="width:18rem;">
                             <img src="./img/bird.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">30-days animals challenge</h5>
@@ -59,7 +59,7 @@
                                 <a href="#" class="btn btn-primary">點我看看</a>
                             </div>
                         </div>
-                        <div class="card" style="width:18rem;">
+                        <div class="card shadow" style="width:18rem;">
                             <img src="./img/calendar.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title font-weight-bold">兔年大吉電子年曆</h5>
@@ -77,7 +77,7 @@
                                 <a href="#" class="btn btn-primary">點我看看</a>
                             </div>
                         </div>
-                        <div class="card" style="width:18rem;">
+                        <div class="card shadow" style="width:18rem;">
                             <img src="./img/poster.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title font-weight-bold">旅遊電子報</h5>
@@ -102,7 +102,7 @@
 
                 <div class="container mt-4">
                     <div class="row justify-content-between">
-                        <div class="card" style="width:18rem;">
+                        <div class="card shadow" style="width:18rem;">
                             <img src="./img/banner.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title font-weight-bold">網頁橫幅設計</h5>
@@ -120,7 +120,7 @@
                                 <a href="#" class="btn btn-primary">點我看看</a>
                             </div>
                         </div>
-                        <div class="card" style="width:18rem;">
+                        <div class="card shadow" style="width:18rem;">
                             <img src="./img/clock.jpg" class="card-img-top" style="height:180px">
                             <div class="card-body">
                             <h5 class="card-title font-weight-bold">電子時鐘</h5>
@@ -138,7 +138,7 @@
                                 <a href="#" class="btn btn-primary">點我看看</a>
                             </div>
                         </div>
-                        <div class="card" style="width:18rem;">
+                        <div class="card shadow" style="width:18rem;">
                             <img src="./img/calendarphp.jpg" class="card-img-top" style="height:180px">
                             <div class="card-body">
                             <h5 class="card-title font-weight-bold">線上萬年曆</h5>

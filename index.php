@@ -14,6 +14,10 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<style>
+
+</style>
+
 </head>
 
 <body>
@@ -48,7 +52,7 @@
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
                 </form>
                 <div class="organ-labels_btm-border" style="width:auto"></div>
             </div>
@@ -66,7 +70,7 @@
         }
     ?>
 
-    </div>
+ 
 
 
 
