@@ -19,21 +19,7 @@
 
 <body>
     <div class="container">
-        <!-- <ul class="nav nav-tabs bg-light" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" data-toggle="tab" data-target="#home" type="button" role="tab"
-                    aria-controls="home" aria-selected="true">Graphic Design</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" data-toggle="tab" data-target="#profile" type="button" role="tab"
-                    aria-controls="profile" aria-selected="false">Back-End</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" data-toggle="tab" data-target="#contact" type="button" role="tab"
-                    aria-controls="contact" aria-selected="false">Front-End</button>
-            </li>
-
-        </ul> -->
+       
 
 
         <div class="tab-content" id="myTabContent">

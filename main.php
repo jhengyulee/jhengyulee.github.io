@@ -23,7 +23,7 @@
 
 </style>
 
-<div class="container row" style="height:80vh;margin-left:10px">
+<div class="container row" style="height:80vh;margin-left:10px" id="main">
 
 <h1 class="ml9" style="margin-top:200px;width:48%">
   <span class="text-wrapper">
