@@ -51,18 +51,27 @@
         }
 
         .pics{
-            width: 200px;
-            height: 80px;
+            width: 90%;
+            height: 100px;
         }
+
+        .slick-prev:before {
+            color: black;
+        }
+        .slick-next:before {
+            color: black;
+        }
+
+        
     </style>
 
 </head>
 
 <body>
-    <div class="container">
+    <div class="container fixed-top">
 
         <nav
-            class="navbar navbar-expand-lg navbar-light bg-primary text-white shadow-lg p-3 mb-5 bg-body rounded mt-4 navbar-fixed-top">
+            class="navbar navbar-expand-lg navbar-light bg-primary text-white shadow-lg p-3 mb-5 bg-body rounded ">
             <a class="navbar-brand" href="#"><i class="fa-solid fa-mug-hot"></i></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -100,7 +109,7 @@
 
     <!-- main page -->
     <div class="container" id="main">
-        <div class="row" style="height:80vh;justify-content:center">
+        <div class="row justify-content-center align-items-center" style="height:80vh">
 
             <h1 class="ml9" style="margin-top:200px;width:48%">
                 <span class="text-wrapper">
@@ -109,7 +118,7 @@
             </h1>
 
 
-            <div style="width:48%; padding-left:10vh;margin-top:10vh" class="me">
+            <div style="width:48%;margin-top:10vh" class="me">
                 <img class="shadow-lg" src="./img/me02.png"
                     style="border-radius:50%;margin:5px auto;width:400px;height:400px">
             </div>
@@ -206,7 +215,7 @@
                     <div class="col-lg-4">
                         <h4>
                             2006年 - 2010年<br>
-                            國立新竹教育大學 教育心理與諮商學系
+                            國立新竹教育大學<br>教育心理與諮商學系
                         </h4>
                         <br><br>
 
@@ -222,12 +231,12 @@
                 </div>
                 <br><br><br><br><br><br><br><br>
                 <!-- 5 -->
-                <div class="section-title" style="margin:50px 0">
+                <div class="section-title " style="margin:50px 0">
 
                     <h2>Skills</h2>
 
                 </div>
-                <div class="row justify-content-around col-12" id="skill">
+                <div class="row justify-content-center col-12" id="skill">
 
                     <div class="col-lg-3 shadow-lg rounded">
                         <h3>Graphic Design</h3>
@@ -287,11 +296,11 @@
                                     <br>
                                     利用黃金比例幾何圖形，描繪出動物外型輪廓，以漸層方式將其上色
                                 </p>
-                                <a href="#" class="btn btn-primary">點我看看</a>
+                                <a href="#pics" class="btn btn-primary">點我看看</a>
                             </div>
                         </div>
                         <div class="card shadow" style="width:18rem;">
-                            <img src="./img/calendar.jpg" class="card-img-top" style="width:300px;height:230px">
+                            <img src="./img/calendar.jpg" class="card-img-top" style="width:100%;height:230px">
                             <div class="card-body">
                                 <h5 class="card-title font-weight-bold">兔年大吉電子年曆</h5>
                                 <p class="card-text">
@@ -322,7 +331,7 @@
                             </div>
                         </div>
                         <div class="card shadow" style="width:18rem;">
-                            <img src="./img/poster.jpg" class="card-img-top" style="width:300px;height:230px">
+                            <img src="./img/poster.jpg" class="card-img-top" style="width:100%;height:230px">
                             <div class="card-body">
                                 <h5 class="card-title font-weight-bold">旅遊電子報</h5>
                                 <p class="card-text">
@@ -360,7 +369,7 @@
                 <div class="container mt-4">
                     <div class="row justify-content-between">
                         <div class="card shadow" style="width:18rem;">
-                            <img src="./img/banner.jpg" class="card-img-top" style="width:300px;height:180px">
+                            <img src="./img/banner.jpg" class="card-img-top" style="width:100%;height:180px">
                             <div class="card-body">
                                 <h5 class="card-title font-weight-bold">網頁橫幅設計</h5>
                                 <p class="card-text">
@@ -435,23 +444,23 @@
 
         </div>
 
-        <div class="container col-12">
+        <div class="container col-12 row justify-content-center" style="margin:50px auto;">
             <div class="pics">
             
             <img src="./img/illustrator/bear.jpg" alt="">
             <img src="./img/illustrator/bird.jpg" alt="">
             <img src="./img/illustrator/dog.jpg" alt="">
             <img src="./img/illustrator/dolphin.jpg" alt="">
-            <img src="./img/illustrator/duck.jpg" alt="">
+            <img src="./img/illustrator/butterfly.jpg" alt="">
             <img src="./img/illustrator/fox.jpg" alt="">
-            <img src="./img/illustrator/whale.jpg" alt="">
+            <img src="./img/illustrator/seacow.jpg" alt="">
         
             </div>
         </div>
     </div>
 
     <!-- cotact -->
-    <section id="contact" class="contact" id="contact">
+    <section id="contact" class="contact" id="contact" style="margin-top: 50px;">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title" style="margin:50px 0">
@@ -544,32 +553,7 @@
 
 
 
-    <script>
-        $('.pics').slick({
-            centerMode: true,
-            centerPadding: '60px',
-            slidesToShow: 3,
-            responsive: [{
-                    breakpoint: 768,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '40px',
-                        slidesToShow: 3
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '40px',
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        });
-    </script>
+   
 
  
 
@@ -610,6 +594,33 @@
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+
+    <script>
+        $('.pics').slick({
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 3,
+            responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    </script>
 
 
 </body>
