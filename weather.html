@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台灣各地天氣-36小時</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
+    </script>
+
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+
+                <h3 class="text-center">台灣各地天氣</h3>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <table class="table table-hover">
+            <tbody>
+                <tr>
+                    <th>ID</th>
+                    <th>縣市</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>  
+        
+    <script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.js"></script>
+
+    <script src="./token/token.js"></script>
+
+    <script>
+        //判斷白天或晚上
+
+        const hourArr = [];
+        hourArr[0] = '凌晨';
+        hourArr[6] = '白天';
+        hourArr[12] = '下午';
+        hourArr[18] = '晚上';
+        console.log('hourArr', hourArr);
+
+
+        //ajax
+        $.ajax({
+            dataType: 'json',
+            url: dataUrl,
+
+            success: function (result) {
+                console.log(result);
+
+                let data = result.records.location; //縣市
+
+
+                // 從資料中取出時間
+                const time0 = new Date(data[0].weatherElement[0].time[0].startTime);
+                const time1 = new Date(data[0].weatherElement[0].time[1].startTime);
+                const time2 = new Date(data[0].weatherElement[0].time[2].startTime);
+
+            
+
+                //取年月日時間
+                let timeText0 = `
+                    ${time0.getFullYear()} 年 ${time0.getMonth()+1} 月 ${time0.getDate()} 日 ${time0.getHours()}時
+                `;
+                let timeText1 = `
+                    ${time1.getFullYear()} 年 ${time1.getMonth()+1} 月 ${time1.getDate()} 日 ${time1.getHours()}時
+                `;
+                let timeText2 = `
+                    ${time2.getFullYear()} 年 ${time2.getMonth()+1} 月 ${time2.getDate()} 日 ${time2.getHours()}時
+                `;
+
+
+                //欄位的文字替換掉
+                $('tr>th').eq(2).text(timeText0); 
+                $('tr>th').eq(3).text(timeText1);
+                $('tr>th').eq(4).text(timeText2);
+
+                //判斷白天或晚上
+                const iconText0 = (time0.getHours() == 6 || time0.getHours() == 12) ? 'day' : 'night';
+                const iconText1 = (time1.getHours() == 6 || time1.getHours() == 12) ? 'day' : 'night';
+                const iconText2 = (time2.getHours() == 6 || time2.getHours() == 12) ? 'day' : 'night';
+                // Wx 天氣現象
+                // MaxT 最高溫度
+                // MinT 最低溫度
+                // CI 舒適度
+                // PoP 降雨機率
+
+
+                for (let i = 0; i < data.length; i++) {
+
+                    // 將資料插入tbody
+                    $('tbody').append(
+                        `
+                        <tr>
+                            <td>${i+1}</td>  
+                            <td>${data[i].locationName}</td>  
+                            <td>
+                                ${data[i]['weatherElement'][0].time[0].parameter.parameterName}
+                                ${data[i]['weatherElement'][2].time[0].parameter.parameterName}- 
+                                ${data[i]['weatherElement'][4].time[0].parameter.parameterName}&deg;C
+                                  
+                                <img src="./img/${iconText0}/${data[i]['weatherElement'][0].time[0].parameter.parameterValue}.svg" alt="">
+                            </td>  
+                            <td>
+                                ${data[i]['weatherElement'][0].time[1].parameter.parameterName}
+                                ${data[i]['weatherElement'][2].time[1].parameter.parameterName}-  
+                                ${data[i]['weatherElement'][4].time[1].parameter.parameterName}&deg;C 
+                                 
+                                <img src="./img/${iconText1}/${data[i]['weatherElement'][0].time[1].parameter.parameterValue}.svg" alt="">
+                            </td>  
+                            <td>
+                                ${data[i]['weatherElement'][0].time[2].parameter.parameterName}
+                                ${data[i]['weatherElement'][2].time[2].parameter.parameterName}- 
+                                ${data[i]['weatherElement'][4].time[2].parameter.parameterName}&deg;C 
+                                 
+                                <img src="./img/${iconText2}/${data[i]['weatherElement'][0].time[2].parameter.parameterValue}.svg" alt="">
+                            </td>  
+                        </tr>
+                        `
+                    )
+
+                }
+
+
+            }
+
+        })
+    </script>
+
+    
+        
+</body>
+</html>
